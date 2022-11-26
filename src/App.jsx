@@ -1,6 +1,8 @@
 
 import React from 'react';
-import Formularios from './Components/Formularios.jsx';
+//import FormNoControlado from './Components/FormNoControlado.jsx';
+import Formulario from './Components/Formulario.jsx';
+//import Formularios from './Components/Formularios.jsx';
 //import Contador from './Components/Contador.jsx';
 //import Eventos from './Components/Eventos.jsx';
 //import Listas from './Components/Listas.jsx';
@@ -16,7 +18,9 @@ function App() {
       <Eventos />
       <Contador />
       <Listas /> */}
-      <Formularios />
+      {/* <Formularios/> */}
+      <Formulario/>
+      {/* <FormNoControlado/> */}
     </div>
   );
 }
